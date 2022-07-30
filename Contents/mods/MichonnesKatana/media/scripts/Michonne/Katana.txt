@@ -1,0 +1,83 @@
+module Michonne {
+  imports {
+    Base
+  }
+
+  item Katana
+	{
+		HitSound = KatanaHit,
+		ImpactSound = KatanaHit,
+		SwingSound = KatanaSwing,
+    AttachmentType = Knife,
+    BaseSpeed = 1,
+    BreakSound = KatanaBreak,
+    Categories = LongBlade,
+    ConditionLowerChanceOneIn = 30,
+    ConditionMax = 100,
+    CritDmgMultiplier = 10,
+    CriticalChance = 40,
+    DamageCategory = Slash,
+    DamageMakeHole = TRUE,
+    DisplayCategory = Weapon,
+    DisplayName = Michonne's Katana,
+    DoorDamage = 8,
+    DoorHitSound = KatanaHit,
+    HitAngleMod = -30,
+    HitFloorSound = KatanaHit,
+    Icon = MichonnesKatana,
+    KnockBackOnNoDeath = TRUE,
+    KnockdownMod = 0,
+    MaxDamage = 16,
+    MaxHitCount = 3,
+    MaxRange = 1.4,
+    MinAngle = 0.8,
+    MinDamage = 8,
+    MinimumSwingTime = 3,
+    MinRange = 0.61,
+    PushBackMod = 0.5,
+    RunAnim = Run_Weapon2,
+    SubCategory = Swinging,
+    SwingAmountBeforeImpact = 0.02,
+    SwingAnim = Bat,
+    SwingTime = 3,
+    TreeDamage = 1,
+    TwoHandWeapon = TRUE,
+    Type = Weapon,
+    WeaponLength = 0.4,
+    WeaponSprite = Katana,
+    Weight = 1.5,
+  }
+
+  model Katana
+  {
+	  mesh = weapons/2handed/Katana,
+	  texture = weapons/2handed/Michonne_Katana,
+  }
+
+	sound KatanaHit
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Hit,
+		}
+	}
+
+	sound KatanaBreak
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Break,
+		}
+	}
+
+	sound KatanaSwing
+	{
+		category = Item,
+		clip
+		{
+			event = Weapon/Melee/BladeLong/Katana/Swing,
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "Lua.diagnostics.globals": [
+        "Events",
+        "getGameTime",
+        "getCore",
+        "getClimateManager",
+        "forceSnowCheck",
+        "ZombRand",
+        "writeLog",
+        "getPlayer"
+    ]
+}
