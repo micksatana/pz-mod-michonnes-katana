@@ -18,3 +18,10 @@ This mod preserves the Base Katana stats. The changes above are only applied to 
 How to Make Katana magazine has the same spawning rate and places as the How to Use Generator magazine.
 
 Michonne's Katana has the same spawning rate as normal Katana.
+
+## How to forge a katana
+
+- You will need Metalworking Level 3
+- Find tools; WeldingMask, BlowTorch, and Sledgehammer
+- Find materials; 1 Metal Sheet, 1 Small Metal Sheet, and 1 Leather Strip
+- Right-click on any material and click Forge Katana
