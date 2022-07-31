@@ -23,6 +23,6 @@ Michonne's Katana has the same spawning rate as normal Katana.
 
 - You will need Metalworking Level 3
 - Read How to Forge Katana magazine
-- Find tools; WeldingMask, BlowTorch, and Sledgehammer
+- Find tools; Welder Mask, BlowTorch, and Sledgehammer
 - Find materials; 1 Metal Sheet, 1 Small Metal Sheet, and 1 Leather Strip
 - Right-click on any material and click Forge Katana
