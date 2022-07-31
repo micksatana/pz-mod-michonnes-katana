@@ -3,8 +3,7 @@ module Michonne {
     Base
   }
 
-  item Katana
-	{
+  item Katana {
 		HitSound = KatanaHit,
 		ImpactSound = KatanaHit,
 		SwingSound = KatanaSwing,
@@ -48,14 +47,12 @@ module Michonne {
     Weight = 1.5,
   }
 
-  model Katana
-  {
+  model Katana {
 	  mesh = weapons/2handed/Katana,
 	  texture = weapons/2handed/Michonne_Katana,
   }
 
-	sound KatanaHit
-	{
+	sound KatanaHit {
 		category = Item,
 		clip
 		{
@@ -63,21 +60,50 @@ module Michonne {
 		}
 	}
 
-	sound KatanaBreak
-	{
+	sound KatanaBreak {
 		category = Item,
-		clip
-		{
+		clip {
 			event = Weapon/Melee/BladeLong/Katana/Break,
 		}
 	}
 
-	sound KatanaSwing
-	{
+	sound KatanaSwing {
 		category = Item,
-		clip
-		{
+		clip {
 			event = Weapon/Melee/BladeLong/Katana/Swing,
 		}
 	}
+
+	item HowToMakeKatana {
+		Weight = 0.1,
+		Type = Literature,
+    DisplayCategory = SkillBook,
+		DisplayName = HowToMakeKatana,
+    Icon = HowToMakeKatana,
+		TeachedRecipes = MakeKatana,
+		ReplaceOnUse = HowToMakeKatana,
+		StaticModel = Magazine,
+		WorldStaticModel = MagazineGround,
+    Tooltip = Tooltip_HowToMakeKatana,
+    StressChange = -5,
+    BoredomChange = -40,
+	}
+
+  recipe MakeKatana {
+    keep WeldingMask,
+    keep BlowTorch,
+    keep Sledgehammer/Sledgehammer2,
+
+    BlowTorch=10,
+    SheetMetal=1,
+    SmallSheetMetal=1,
+    LeatherStrips=1,
+
+    Result:Michonne.Katana,
+    OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	  SkillRequired:MetalWelding=3,
+    Time:360.0,
+	  Sound:BlowTorch,
+    NeedToBeLearn:True,
+  }
 }
