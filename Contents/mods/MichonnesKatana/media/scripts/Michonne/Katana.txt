@@ -18,7 +18,7 @@ module Michonne {
     DamageCategory = Slash,
     DamageMakeHole = TRUE,
     DisplayCategory = Weapon,
-    DisplayName = Michonne's Katana,
+    DisplayName = MichonnesKatana,
     DoorDamage = 8,
     DoorHitSound = KatanaHit,
     HitAngleMod = -30,

@@ -26,3 +26,9 @@ Michonne's Katana has the same spawning rate as normal Katana.
 - Find tools; Welder Mask, Propane Torch, and Sledgehammer
 - Find materials; 10 Metal Sheet, 2 Small Metal Sheet, 4 Welding Rods, 1 Leather Strip and 1 Stake
 - Right-click on any material and click Forge Katana
+
+## Special Thanks
+
+### Translations
+
+- Spanish by CarlosRojasCu
