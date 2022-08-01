@@ -1,4 +1,4 @@
 Items_EN = {
-  DisplayName_HowToMakeKatana = "How to Forge Katana",
+  DisplayName_HowToMakeKatana = "How to Forge Michonne's Katana",
   DisplayName_MichonnesKatana = "Michonne's Katana",
 }

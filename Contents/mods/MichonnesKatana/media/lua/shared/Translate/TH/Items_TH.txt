@@ -1,0 +1,4 @@
+Items_EN = {
+  DisplayName_HowToMakeKatana = "วิธีสร้างคาตานะของมิโชน",
+  DisplayName_MichonnesKatana = "คาตานะของมิโชน",
+}
