@@ -2,7 +2,9 @@ version=1
 id=2842424482
 title=Michonne's Katana
 description=## Features
+
 description=
+
 description=According to actual katana facts, this mod adds Michonne's Katana based on the following stats
 
 description=
@@ -25,11 +27,39 @@ description=This mod preserves the Base Katana stats. The changes above are only
 
 description=
 
-description=How to Make Katana magazine has the same spawning rate and places as the How to Use Generator magazine.
+description=How to Forge Katana magazine has the same spawning rate and places as the How to Use Generator magazine.
 
 description=
 
 description=Michonne's Katana has the same spawning rate as normal Katana.
+
+description=
+
+description=## How to forge a katana
+
+description=
+
+description=- You will need Metalworking Level 6
+
+description=- Read How to Forge Katana magazine
+
+description=- Find tools; Welder Mask, Propane Torch, and Sledgehammer
+
+description=- Find materials; 10 Metal Sheet, 2 Small Metal Sheet, 4 Welding Rods, 1 Leather Strip and 1 Stake
+
+description=- Right-click on any material and click Forge Katana
+
+description=
+
+description=## Special Thanks
+
+description=
+
+description=### Translations
+
+description=
+
+description=- Spanish by CarlosRojasCu
 
 tags=Build 41;Literature;Weapons
 visibility=public
