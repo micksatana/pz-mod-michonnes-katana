@@ -13,7 +13,7 @@ According to actual katana facts, this mod adds Michonne's Katana based on the f
 - Allow attaching a katana on a belt
 - Critical chance and damage is significantly increased.
 
-This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana which will be added to your inventory upon spawning for the first time ;-)
+This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana.
 
 How to Forge Katana magazine has the same spawning rate and places as the How to Use Generator magazine.
 

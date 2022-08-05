@@ -23,7 +23,7 @@ description=- Critical chance and damage is significantly increased.
 
 description=
 
-description=This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana which will be added to your inventory upon spawning for the first time ;-)
+description=This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana.
 
 description=
 
