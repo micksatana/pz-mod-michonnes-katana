@@ -45,7 +45,7 @@ description=- Read How to Forge Katana magazine
 
 description=- Find tools; Welder Mask, Propane Torch, and Sledgehammer
 
-description=- Find materials; 10 Metal Sheet, 2 Small Metal Sheet, 4 Welding Rods, 1 Leather Strip and 1 Stake
+description=- Find materials; 10 Metal Sheet, 2 Small Metal Sheet, 4 Welding Rods, 1 Leather Strip, 1 Stake, and 1 Wood Glue
 
 description=- Right-click on any material and click Forge Katana
 
