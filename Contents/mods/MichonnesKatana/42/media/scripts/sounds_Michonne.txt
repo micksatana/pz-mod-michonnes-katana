@@ -1,8 +1,7 @@
 module Michonne {
     sound MichonnesKatanaHit {
         category = Item,
-        clip
-        {
+        clip {
             event = Weapon/Melee/BladeLong/Katana/Hit,
         }
     }
@@ -24,8 +23,7 @@ module Michonne {
     sound MichonnesKatanaDrop
     {
         category = Item,
-        clip
-        {
+        clip {
             event = Weapon/Melee/BladeLong/Katana/Drop,
         }
     }

@@ -1,5 +1,5 @@
 Items_EN = {
-  DisplayName_HowToMakeKatana = "วิธีสร้างคาตานะของมิโชน",
+  DisplayName_HowToMakeMichonnesKatana = "วิธีสร้างคาตานะของมิโชน",
   DisplayName_MichonnesKatana = "คาตานะของมิโชน",
   DisplayName_MichonnesKatana_Broken = "ดาบหักๆของมิโชน",
   DisplayName_MichonnesKatana_Shard = "เศษดาบของมิโชน",

@@ -1,16 +1,16 @@
 module Michonne {
     
-    item HowToMakeKatana {
+    item HowToMakeMichonnesKatana {
         Weight = 0.1,
         Type = Literature,
         DisplayCategory = SkillBook,
-        DisplayName = HowToMakeKatana,
-        Icon = HowToMakeKatana,
+        DisplayName = HowToMakeMichonnesKatana,
+        Icon = HowToMakeMichonnesKatana,
         TeachedRecipes = MakeMichonnesKatana,
-        ReplaceOnUse = HowToMakeKatana,
+        ReplaceOnUse = HowToMakeMichonnesKatana,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
-        Tooltip = Tooltip_HowToMakeKatana,
+        Tooltip = Tooltip_HowToMakeMichonnesKatana,
         StressChange = -5,
         BoredomChange = -40,
     }

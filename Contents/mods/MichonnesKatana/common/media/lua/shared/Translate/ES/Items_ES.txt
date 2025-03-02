@@ -1,5 +1,5 @@
 Items_EN = {
-  DisplayName_HowToMakeKatana = "Revista: Aprender hacer la Katana Michonne's",
+  DisplayName_HowToMakeMichonnesKatana = "Revista: Aprender hacer la Katana Michonne's",
   DisplayName_MichonnesKatana = "Katana Michonne's",
   DisplayName_MichonnesKatana_Broken = "Broken Katana Michonne's",
   DisplayName_MichonnesKatana_Shard = "Blade Shard Michonne's",

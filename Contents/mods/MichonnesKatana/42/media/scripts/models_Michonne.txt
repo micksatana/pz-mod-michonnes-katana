@@ -2,6 +2,18 @@ module Michonne {
     model MichonnesKatana {
         mesh = weapons/2handed/MichonnesKatana,
         texture = weapons/2handed/MichonnesKatana,
+        
+        attachment world
+        {
+            offset = 0.0155 0.2859 0.0150,
+            rotate = -180.0000 0.0000 177.5660,
+        }
+        
+        attachment Bip01_Prop2
+        {
+            offset = -0.0130 0.0001 0.0025,
+            rotate = -23.8537 -86.6222 -22.0887,
+        }
     }
     model MichonnesKatana_Broken
     {

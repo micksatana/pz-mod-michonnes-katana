@@ -1,5 +1,5 @@
 Items_EN = {
-  DisplayName_HowToMakeKatana = "How to Forge Michonne's Katana",
+  DisplayName_HowToMakeMichonnesKatana = "How to Forge Michonne's Katana",
   DisplayName_MichonnesKatana = "Michonne's Katana",
   DisplayName_MichonnesKatana_Broken = "Broken Michonne's Katana",
   DisplayName_MichonnesKatana_Shard = "Michonne's Blade Shard",
