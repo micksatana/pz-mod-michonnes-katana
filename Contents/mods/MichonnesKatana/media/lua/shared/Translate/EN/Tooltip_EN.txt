@@ -1,0 +1,3 @@
+Tooltip_EN = {
+  Tooltip_HowToMakeKatana = "How to forge a katana as cool as the one in the Walking Dead",
+}

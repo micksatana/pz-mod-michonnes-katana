@@ -1,0 +1,32 @@
+module Michonne {
+    sound MichonnesKatanaHit {
+        category = Item,
+        clip
+        {
+            event = Weapon/Melee/BladeLong/Katana/Hit,
+        }
+    }
+    
+    sound MichonnesKatanaBreak {
+        category = Item,
+        clip {
+            event = Weapon/Melee/BladeLong/Katana/Break,
+        }
+    }
+    
+    sound MichonnesKatanaSwing {
+        category = Item,
+        clip {
+            event = Weapon/Melee/BladeLong/Katana/Swing,
+        }
+    }
+    
+    sound MichonnesKatanaDrop
+    {
+        category = Item,
+        clip
+        {
+            event = Weapon/Melee/BladeLong/Katana/Drop,
+        }
+    }
+}
