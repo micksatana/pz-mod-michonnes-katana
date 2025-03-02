@@ -32,5 +32,5 @@ description=### Translations
 description=
 description=- Spanish by CarlosRojasCu
 description=- French by Wailwolf
-tags=Build 41;Literature;Weapons
+tags=Build 41;Build 42;Literature;Weapons
 visibility=public
