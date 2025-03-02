@@ -1,6 +1,6 @@
 version=1
 id=2842424482
-title=[B41] Michonne's Katana
+title=[B41/B42] Michonne's Katana
 description=## Features
 description=
 description=According to actual katana facts, this mod adds Michonne's Katana based on the following stats
