@@ -1,0 +1,4 @@
+Items_FR = {
+  DisplayName_HowToMakeKatana = "Comment forger le katana légendaire",
+  DisplayName_MichonnesKatana = "Katana légendaire",
+}
