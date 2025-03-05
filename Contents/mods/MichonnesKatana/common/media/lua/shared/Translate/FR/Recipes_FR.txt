@@ -1,0 +1,3 @@
+Recipe_FR = {
+  Recipe_MakeMichonnesKatana = "Forger le katana de Michonne",
+}

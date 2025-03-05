@@ -1,0 +1,9 @@
+Items_FR = {
+  DisplayName_HowToMakeMichonnesKatana = "Comment forger le katana de Michonne",
+  DisplayName_MichonnesKatana = "Katana de Michonne",
+  DisplayName_MichonnesKatana_Broken = "Katana brisé de Michonne",
+  DisplayName_MichonnesKatana_Shard = "Éclat de lame de Michonne",
+  DisplayName_MichonnesKatana_Handle = "Poignée de Michonne",
+  DisplayName_MichonnesKatana_Blade = "Lame de Michonne",
+  DisplayName_MichonnesKatana_Blade_Broken = "Lame brisée de Michonne",
+}

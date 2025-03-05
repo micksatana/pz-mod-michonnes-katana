@@ -1,0 +1,3 @@
+Tooltip_FR = {
+  Tooltip_HowToMakeMichonnesKatana = "Comment forger un katana aussi cool que celui dans la série The Walking Dead.",
+}
