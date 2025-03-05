@@ -15,7 +15,7 @@ According to actual katana facts, this mod adds Michonne's Katana based on the f
 
 This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana.
 
-How to Forge Katana magazine has the same spawning rate and places as the How to Use Generator magazine.
+How to Forge Katana magazines spawn at Bookstore, Classroom, Crate, Engineer Tools, Library, Living Room, Post Office, Shelf, Tool Store. Bookstore, Tool Store and Engineer Tools have the highest chance.
 
 Michonne's Katana has the same spawning rate as normal Katana.
 
