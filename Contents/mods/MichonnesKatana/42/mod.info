@@ -1,8 +1,8 @@
-modversion=1.0.1
+modversion=1.0.2
 name=[B42]Michonne's Katana
 poster=media/poster.png
+icon=media/poster.png
 id=MichonnesKatana
 author=micksatana
 description=Spawn with Michonne's Katana. The katana has improved stats; it's hard to break, damage and critical rate is high.
 url=https://github.com/micksatana/pz-mod-michonnes-katana
-icon=media/poster.png

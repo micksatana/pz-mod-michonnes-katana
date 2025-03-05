@@ -7,7 +7,7 @@ module Michonne {
         HitSound = KatanaHit,
         ImpactSound = KatanaHit,
         SwingSound = KatanaSwing,
-        AttachmentType = Sword,
+        AttachmentType = Knife,
         BaseSpeed = 1,
         BreakSound = KatanaBreak,
         Categories = LongBlade,
