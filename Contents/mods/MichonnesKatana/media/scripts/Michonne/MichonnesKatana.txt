@@ -100,7 +100,7 @@ module Michonne {
         WeldingRods=4,
         LeatherStrips/LeatherStripsDirty=1,
         Stake=1,
-        Woodglue=1,
+        Woodglue/Glue=1,
         
         Result:Michonne.MichonnesKatana,
         OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
