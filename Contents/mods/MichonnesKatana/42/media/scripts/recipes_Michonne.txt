@@ -3,7 +3,6 @@ module Michonne {
     craftRecipe MakeMichonnesKatana {
         tags = AnySurfaceCraft;CanBeDoneFromFloor,
         timedAction = Welding,
-        xpAward = MetalWelding:10,
         SkillRequired = MetalWelding:6,
         category = Weaponry,
         time = 360,
