@@ -51,9 +51,9 @@ module Michonne {
         mesh = weapons/2handed/Katana,
         texture = weapons/2handed/MichonnesKatana,
     }
-    model MichonnesKatana_Shelthed {
+    model MichonnesKatana_Sheathed {
         mesh = weapons/2handed/Katana,
-        texture = weapons/2handed/MichonnesKatana_Shelthed,
+        texture = weapons/2handed/MichonnesKatana_Sheathed,
     }
     
     sound KatanaHit {

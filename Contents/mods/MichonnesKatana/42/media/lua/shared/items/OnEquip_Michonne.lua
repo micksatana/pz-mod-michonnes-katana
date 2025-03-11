@@ -1,4 +1,4 @@
-local function onEquipValidateShelthed(character, item)
+local function onEquipValidateSheathed(character, item)
   local inv = character:getInventory():getItems()
 
 	for i = 0, inv:size() - 1 do
@@ -7,7 +7,7 @@ local function onEquipValidateShelthed(character, item)
 
     if fullType == "Michonne.MichonnesKatana" then
       if character:isAttachedItem(obj) then
-        obj:setWeaponSprite("Michonne.MichonnesKatana_Shelthed")
+        obj:setWeaponSprite("Michonne.MichonnesKatana_Sheathed")
       elseif character:isEquipped(obj) then
         obj:setWeaponSprite("Michonne.MichonnesKatana")
       end
@@ -15,5 +15,5 @@ local function onEquipValidateShelthed(character, item)
 	end
 end
 
-Events.OnEquipPrimary.Add(onEquipValidateShelthed)
-Events.OnEquipSecondary.Add(onEquipValidateShelthed)
+Events.OnEquipPrimary.Add(onEquipValidateSheathed)
+Events.OnEquipSecondary.Add(onEquipValidateSheathed)

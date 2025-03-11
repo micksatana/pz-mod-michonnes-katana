@@ -12,7 +12,7 @@ According to actual katana facts, this mod adds Michonne's Katana based on the f
 - Lower chance to decrease katana's condition
 - Allow attaching a katana on a belt
 - Critical chance and damage is significantly increased.
-- Built-in Michonne's Katana Shelth
+- Built-in Michonne's Katana Sheath
 
 This mod preserves the Base Katana stats. The changes above are only applied to Michonne's Katana.
 
