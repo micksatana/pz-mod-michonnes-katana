@@ -1,6 +1,9 @@
-modversion=1.0.2
-name=[B42]Michonne's Katana
+modversion=1.1.0
+name=Michonne's Katana [B42]
 poster=media/poster.png
+poster=media/poster-1.png
+poster=media/poster-2.png
+poster=media/poster-3.png
 icon=media/poster.png
 id=MichonnesKatana
 author=micksatana

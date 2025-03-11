@@ -1,8 +1,8 @@
 module Michonne {
     imports {
-      Base
+        Base
     }
-
+    
     item MichonnesKatana {
         HitSound = KatanaHit,
         ImpactSound = KatanaHit,
@@ -43,13 +43,17 @@ module Michonne {
         TwoHandWeapon = TRUE,
         Type = Weapon,
         WeaponLength = 0.4,
-        WeaponSprite = Katana,
+        WeaponSprite = Michonne.MichonnesKatana,
         Weight = 1.5,
     }
-
+    
     model MichonnesKatana {
         mesh = weapons/2handed/Katana,
         texture = weapons/2handed/MichonnesKatana,
+    }
+    model MichonnesKatana_Shelthed {
+        mesh = weapons/2handed/Katana,
+        texture = weapons/2handed/MichonnesKatana_Shelthed,
     }
     
     sound KatanaHit {

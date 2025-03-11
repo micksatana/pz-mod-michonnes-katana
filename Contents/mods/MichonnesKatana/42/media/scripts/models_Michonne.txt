@@ -1,47 +1,22 @@
 module Michonne {
     model MichonnesKatana {
-        mesh = weapons/2handed/MichonnesKatana,
+        mesh = weapons/2handed/Katana,
         texture = weapons/2handed/MichonnesKatana,
-        
-        attachment world
-        {
-            offset = 0.0155 0.2859 0.0150,
-            rotate = -180.0000 0.0000 177.5660,
-        }
-        
-        attachment Bip01_Prop2
-        {
-            offset = -0.0130 0.0001 0.0025,
-            rotate = -23.8537 -86.6222 -22.0887,
-        }
+    }
+    model MichonnesKatana_Shelthed {
+        mesh = weapons/2handed/Katana,
+        texture = weapons/2handed/MichonnesKatana_Shelthed,
     }
     model MichonnesKatana_Broken
     {
         mesh = weapons/1handed/Katana_Broken,
         texture = weapons/2handed/MichonnesKatana,
-        
-        attachment world
-        {
-            offset = 0.0121 0.2861 0.0150,
-            rotate = -180.0000 0.0000 176.8501,
-        }
-        
-        attachment Bip01_Prop2
-        {
-            offset = -0.0130 0.0001 0.0025,
-            rotate = -23.8537 -86.6222 -22.0887,
-        }
     }
     model MichonnesKatana_Shard
     {
         mesh = WorldItems/Katana_BrokenShard_Ground,
         texture = weapons/2handed/MichonnesKatana,
         scale = 0.4,
-        attachment knife_shoulder
-        {
-            offset = 0.0 0.125 0.0,
-            rotate = 0.0 180.0 90.0,
-        }
     }
     model MichonnesKatana_Handle
     {

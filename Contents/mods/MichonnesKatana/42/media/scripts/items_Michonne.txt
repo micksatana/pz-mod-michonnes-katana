@@ -55,12 +55,13 @@ module Michonne {
         TwoHandWeapon = TRUE,
         Type = Weapon,
         WeaponLength = 0.4,
-        WeaponSprite = Katana,
+        WeaponSprite = Michonne.MichonnesKatana,
         Weight = 1.5,
         
         OnBreak = OnBreak.MichonnesKatana,
         Tags = IgnoreZombieDensity;Sharpenable;ButcherAnimal;KillAnimal;CutPlant;SmeltableIronLarge;HasMetal;FullBlade;Katana,
     }
+
     item MichonnesKatana_Broken
     {
         DisplayName               = Broken Michonne's Katana,
