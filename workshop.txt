@@ -1,6 +1,6 @@
 version=1
 id=2842424482
-title=[B41/B42] Michonne's Katana
+title=Michonne's Katana [B41/B42]
 description=[h1]Michonne's Katana[/h1]
 description=
 description=[h2]Features[/h2]
