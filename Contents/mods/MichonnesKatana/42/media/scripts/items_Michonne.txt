@@ -170,6 +170,7 @@ module Michonne {
        Require : MichonnesKatana,
 
        Fixer : DuctTape=1,
+       Fixer : Woodglue=1,
        Fixer : Glue=1,
        Fixer : Scotchtape=2,
     }
