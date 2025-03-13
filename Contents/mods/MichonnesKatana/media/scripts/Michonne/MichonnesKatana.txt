@@ -51,31 +51,10 @@ module Michonne {
         mesh = weapons/2handed/Katana,
         texture = weapons/2handed/MichonnesKatana,
     }
+
     model MichonnesKatana_Sheathed {
         mesh = weapons/2handed/Katana,
         texture = weapons/2handed/MichonnesKatana_Sheathed,
-    }
-    
-    sound KatanaHit {
-        category = Item,
-        clip
-        {
-            event = Weapon/Melee/BladeLong/Katana/Hit,
-        }
-    }
-    
-    sound KatanaBreak {
-        category = Item,
-        clip {
-            event = Weapon/Melee/BladeLong/Katana/Break,
-        }
-    }
-    
-    sound KatanaSwing {
-        category = Item,
-        clip {
-            event = Weapon/Melee/BladeLong/Katana/Swing,
-        }
     }
     
     item HowToMakeKatana {
@@ -112,5 +91,13 @@ module Michonne {
         Time:360.0,
         Sound:BlowTorch,
         NeedToBeLearn:True,
+    }
+
+    fixing Fix Michonne's Katana {
+       Require : MichonnesKatana,
+
+       Fixer : DuctTape=1,
+       Fixer : Glue=1,
+       Fixer : Scotchtape=2,
     }
 }
