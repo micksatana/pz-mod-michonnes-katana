@@ -165,4 +165,12 @@ module Michonne {
         WorldStaticModel    = Katana_Blade_Broken,
         ResearchableRecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_SwordBlade,
     }
+    
+    fixing Fix Michonne's Katana {
+       Require : MichonnesKatana,
+
+       Fixer : DuctTape=1,
+       Fixer : Glue=1,
+       Fixer : Scotchtape=2,
+    }
 }
