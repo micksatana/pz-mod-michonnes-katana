@@ -29,6 +29,15 @@ Michonne's Katana has the same spawning rate as normal Katana.
 - [B41] Right-click on any material and click Forge Katana
 - [B42] Open Crafting Menu, looks for Forge Katana
 
+## Katana attachments
+
+- [B41] Belt left and right
+- [B42] Back, belt left and right
+
+## FAQ
+
+- Why attaching the first time, the sheath not showing? Due to limitation of Events API, we can only check when equipping it. So the first time attaching the katana, we can't render the sheath.
+
 ## Special Thanks
 
 ### Translations

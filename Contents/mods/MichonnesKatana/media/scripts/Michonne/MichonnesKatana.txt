@@ -23,7 +23,7 @@ module Michonne {
         DoorHitSound = KatanaHit,
         HitAngleMod = -30,
         HitFloorSound = KatanaHit,
-        Icon = MichonnesKatana,
+        Icon = Michonne.MichonnesKatana,
         KnockBackOnNoDeath = TRUE,
         KnockdownMod = 0,
         MaxDamage = 16,
