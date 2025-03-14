@@ -44,3 +44,4 @@ Michonne's Katana has the same spawning rate as normal Katana.
 
 - Spanish by CarlosRojasCu
 - French by Wailwolf
+- Chinese by 无聊的栀子

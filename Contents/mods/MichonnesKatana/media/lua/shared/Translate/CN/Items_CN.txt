@@ -1,0 +1,4 @@
+Items_CN = {
+  DisplayName_HowToMakeKatana = "如何锻造米琼恩的武士刀",
+  DisplayName_MichonnesKatana = "米琼恩的武士刀",
+}

@@ -1,0 +1,9 @@
+Items_CN = {
+  DisplayName_HowToMakeMichonnesKatana = "如何锻造米琼恩的武士刀",
+  DisplayName_MichonnesKatana = "米琼恩的武士刀",
+  DisplayName_MichonnesKatana_Broken = "米琼恩的断裂武士刀",
+  DisplayName_MichonnesKatana_Shard = "米琼恩的刀刃碎片",
+  DisplayName_MichonnesKatana_Handle = "米琼恩的刀柄",
+  DisplayName_MichonnesKatana_Blade = "米琼恩的刀刃",
+  DisplayName_MichonnesKatana_Blade_Broken = "米琼恩的断刃",
+}
