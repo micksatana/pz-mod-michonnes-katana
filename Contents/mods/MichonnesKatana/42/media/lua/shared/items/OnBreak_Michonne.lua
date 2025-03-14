@@ -2,7 +2,7 @@ require "shared/Items/OnBreak"
 
 function OnBreak.MichonnesKatana(item, player)
   local rand = newrandom()
-  local roll = rand(0, 3)
+  local roll = rand:random(0, 3)
 
   if roll == 0 then
     OnBreak.HeadHandler(item, player, "Michonne.MichonnesKatana_Shard", true, "Knife Shoulder", 0, true)
