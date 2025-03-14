@@ -6,7 +6,7 @@ local function onGameBoot()
   for i = 0, activeMods:size() - 1 do
     local modID = activeMods:get(i):gsub("\\", "")
 
-    if modID == "TKS42" or modID == "KatanaSheath" then
+    if modID == "TKS" or modID == "KatanaSheath" then
       local item = ScriptManager.instance:getItem("Michonne.MichonnesKatana")
       item:DoParam("AttachmentType = Katana")
     end
