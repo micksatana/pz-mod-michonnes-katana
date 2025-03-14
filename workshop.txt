@@ -41,6 +41,13 @@ description=  [*] [B41] Belt left and right
 description=  [*] [B42] Back, belt left and right
 description=[/list]
 description=
+description=[h2]Mod compatibilities[/h2]
+description=
+description=[list]
+description=  [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3253021458]Katana Sheath[/url]
+description=  [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3389805754]Tactical Sheaths[/url]
+description=[/list]
+description=
 description=[h2]FAQ[/h2]
 description=
 description=[list]

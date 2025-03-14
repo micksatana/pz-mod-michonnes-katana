@@ -34,6 +34,11 @@ Michonne's Katana has the same spawning rate as normal Katana.
 - [B41] Belt left and right
 - [B42] Back, belt left and right
 
+## Mod compatibilities
+
+- [Katana Sheath](https://steamcommunity.com/sharedfiles/filedetails/?id=3253021458)
+- [Tactical Sheaths](https://steamcommunity.com/sharedfiles/filedetails/?id=3389805754)
+
 ## FAQ
 
 - Why attaching the first time, the sheath not showing? Due to limitation of Events API, we can only check when equipping it. So the first time attaching the katana, we can't render the sheath.

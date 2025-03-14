@@ -1,7 +1,9 @@
 require "shared/Items/OnBreak"
 
 function OnBreak.MichonnesKatana(item, player)
-  local roll = ZombRand(3)
+  local rand = newrandom()
+  local roll = rand(0, 3)
+
   if roll == 0 then
     OnBreak.HeadHandler(item, player, "Michonne.MichonnesKatana_Shard", true, "Knife Shoulder", 0, true)
     OnBreak.HandleHandler(item, player, "Michonne.MichonnesKatana_Broken", false)
