@@ -69,7 +69,6 @@ module Michonne {
         WorldStaticModel = MagazineGround,
         Tooltip = Tooltip_HowToMakeKatana,
         StressChange = -5,
-        BoredomChange = -40,
     }
     
     recipe MakeMichonnesKatana {
