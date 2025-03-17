@@ -1,0 +1,3 @@
+ItemName_CN = {
+  ItemName_MichonnesKatana = "米琼恩的武士刀",
+}
