@@ -64,6 +64,5 @@ description=  [*] French by Wailwolf
 description=  [*] Chinese by 无聊的栀子
 description=[/list]
 description=
-description=[url=https://www.buymeacoffee.com/micksatana][img]https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=micksatana&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff[/img][/url]
 tags=Build 41;Build 42;Literature;Weapons
 visibility=public
