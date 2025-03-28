@@ -1,0 +1,4 @@
+ItemName_ES = {
+  ItemName_Michonne.HowToMakeKatana = "Revista: Aprender hacer la Katana Michonne's",
+  ItemName_Michonne.MichonnesKatana = "Katana Michonne's",
+}

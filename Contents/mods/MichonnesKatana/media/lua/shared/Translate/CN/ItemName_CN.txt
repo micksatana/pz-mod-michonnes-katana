@@ -1,3 +1,4 @@
 ItemName_CN = {
-  ItemName_MichonnesKatana = "米琼恩的武士刀",
+  ItemName_Michonne.HowToMakeKatana = "如何锻造米琼恩的武士刀",
+  ItemName_Michonne.MichonnesKatana = "米琼恩的武士刀",
 }

@@ -1,8 +1,9 @@
 ItemName_CN = {
-  ItemName_MichonnesKatana = "米琼恩的武士刀",
-  ItemName_MichonnesKatana_Broken = "米琼恩的断裂武士刀",
-  ItemName_MichonnesKatana_Shard = "米琼恩的刀刃碎片",
-  ItemName_MichonnesKatana_Handle = "米琼恩的刀柄",
-  ItemName_MichonnesKatana_Blade = "米琼恩的刀刃",
-  ItemName_MichonnesKatana_Blade_Broken = "米琼恩的断刃",
+  ItemName_Michonne.HowToMakeMichonnesKatana = "如何锻造米琼恩的武士刀",
+  ItemName_Michonne.MichonnesKatana = "米琼恩的武士刀",
+  ItemName_Michonne.MichonnesKatana_Broken = "米琼恩的断裂武士刀",
+  ItemName_Michonne.MichonnesKatana_Shard = "米琼恩的刀刃碎片",
+  ItemName_Michonne.MichonnesKatana_Handle = "米琼恩的刀柄",
+  ItemName_Michonne.MichonnesKatana_Blade = "米琼恩的刀刃",
+  ItemName_Michonne.MichonnesKatana_Blade_Broken = "米琼恩的断刃",
 }

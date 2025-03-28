@@ -1,0 +1,9 @@
+Items_RU = {
+  DisplayName_HowToMakeMichonnesKatana = "Как выковать катану Мишон",
+  DisplayName_MichonnesKatana = "Катана Мишон",
+  DisplayName_MichonnesKatana_Broken = "Сломанная катана Мишонн",
+  DisplayName_MichonnesKatana_Shard = "Осколок клинка Мишонн",
+  DisplayName_MichonnesKatana_Handle = "Ручка Мишонн",
+  DisplayName_MichonnesKatana_Blade = "Клинок Мишонн",
+  DisplayName_MichonnesKatana_Blade_Broken = "Сломанный клинок Мишонн",
+}

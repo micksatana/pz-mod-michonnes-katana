@@ -1,3 +1,3 @@
-Recipe_EN = {
+Recipe_ES = {
   Recipe_MakeMichonnesKatana = "Hacer Katana Michonne's",
 }

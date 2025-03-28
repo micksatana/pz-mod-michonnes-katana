@@ -1,3 +1,3 @@
-Recipe_EN = {
+Recipe_TH = {
   Recipe_MakeMichonnesKatana = "หลอมเหล็กสร้างคาตานะ",
 }

@@ -1,0 +1,4 @@
+ItemName_TH = {
+  ItemName_Michonne.HowToMakeKatana = "วิธีสร้างคาตานะของมิโชน",
+  ItemName_Michonne.MichonnesKatana = "คาตานะของมิโชน",
+}

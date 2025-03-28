@@ -1,0 +1,4 @@
+Items_RU = {
+  DisplayName_HowToMakeKatana = "Как выковать катану Мишон",
+  DisplayName_MichonnesKatana = "Катана Мишон",
+}

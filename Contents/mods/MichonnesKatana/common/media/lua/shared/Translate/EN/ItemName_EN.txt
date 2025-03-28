@@ -1,0 +1,9 @@
+ItemName_EN = {
+  ItemName_Michonne.HowToMakeMichonnesKatana = "How to Forge Michonne's Katana",
+  ItemName_Michonne.MichonnesKatana = "Michonne's Katana",
+  ItemName_Michonne.MichonnesKatana_Broken = "Michonne's Broken Katana",
+  ItemName_Michonne.MichonnesKatana_Shard = "Michonne's Blade Shard",
+  ItemName_Michonne.MichonnesKatana_Handle = "Michonne's Handle",
+  ItemName_Michonne.MichonnesKatana_Blade = "Michonne's Blade",
+  ItemName_Michonne.MichonnesKatana_Blade_Broken = "Michonne's Broken Blade",
+}

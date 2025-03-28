@@ -1,4 +1,4 @@
-Items_EN = {
+Items_ES = {
   DisplayName_HowToMakeKatana = "Revista: Aprender hacer la Katana Michonne's",
   DisplayName_MichonnesKatana = "Katana Michonne's",
 }

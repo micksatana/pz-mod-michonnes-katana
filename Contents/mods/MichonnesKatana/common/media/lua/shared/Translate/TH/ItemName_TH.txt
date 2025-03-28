@@ -1,0 +1,9 @@
+ItemName_TH = {
+  ItemName_Michonne.HowToMakeMichonnesKatana = "วิธีสร้างคาตานะของมิโชน",
+  ItemName_Michonne.MichonnesKatana = "คาตานะของมิโชน",
+  ItemName_Michonne.MichonnesKatana_Broken = "ดาบหักๆของมิโชน",
+  ItemName_Michonne.MichonnesKatana_Shard = "เศษดาบของมิโชน",
+  ItemName_Michonne.MichonnesKatana_Handle = "ด้ามดาบของมิโชน",
+  ItemName_Michonne.MichonnesKatana_Blade = "ใบดาบของมิโชน",
+  ItemName_Michonne.MichonnesKatana_Blade_Broken = "ใบดาบหักของมิโชน",
+}

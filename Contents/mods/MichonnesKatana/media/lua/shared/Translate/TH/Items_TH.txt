@@ -1,4 +1,4 @@
-Items_EN = {
+Items_TH = {
   DisplayName_HowToMakeKatana = "วิธีสร้างคาตานะของมิโชน",
   DisplayName_MichonnesKatana = "คาตานะของมิโชน",
 }

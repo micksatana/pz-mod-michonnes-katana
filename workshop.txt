@@ -62,6 +62,7 @@ description=[list]
 description=  [*] Spanish by CarlosRojasCu
 description=  [*] French by Wailwolf
 description=  [*] Chinese by 无聊的栀子
+description=  [*] Russian by badlam
 description=[/list]
 tags=Build 41;Build 42;Literature;Weapons
 visibility=public

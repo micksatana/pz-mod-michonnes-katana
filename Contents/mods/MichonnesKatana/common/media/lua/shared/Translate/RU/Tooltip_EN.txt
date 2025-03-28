@@ -1,0 +1,3 @@
+Tooltip_RU = {
+  Tooltip_HowToMakeMichonnesKatana = "Как выковать катану, такую же крутую, как в сериале 'Ходячие мертвецы'",
+}
