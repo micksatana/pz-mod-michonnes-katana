@@ -4,9 +4,9 @@ module Michonne {
         tags = AnySurfaceCraft;CanBeDoneFromFloor,
         timedAction = Welding,
         SkillRequired = MetalWelding:6,
+        AutoLearnAny: MetalWelding:6,
         category = Weaponry,
         time = 360,
-        needToBeLearn = true,
         xpAward = MetalWelding:25,
         
         inputs {

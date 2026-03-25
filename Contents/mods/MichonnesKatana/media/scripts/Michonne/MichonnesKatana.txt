@@ -41,7 +41,7 @@ module Michonne {
         SwingTime = 3,
         TreeDamage = 1,
         TwoHandWeapon = TRUE,
-        Type = Weapon,
+        ItemType = base:weapon,
         WeaponLength = 0.4,
         WeaponSprite = Michonne.MichonnesKatana,
         Weight = 1.5,
@@ -59,7 +59,7 @@ module Michonne {
     
     item HowToMakeKatana {
         Weight = 0.1,
-        Type = Literature,
+        ItemType = base:literature,
         DisplayCategory = SkillBook,
         DisplayName = HowToMakeKatana,
         Icon = HowToMakeKatana,

@@ -2,11 +2,11 @@ module Michonne {
     
     item HowToMakeMichonnesKatana {
         Weight = 0.1,
-        Type = Literature,
-        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        DisplayCategory = RecipeResource,
         DisplayName = HowToMakeMichonnesKatana,
         Icon = Michonne.HowToMakeMichonnesKatana,
-        TeachedRecipes = MakeMichonnesKatana,
+        TeachedRecipes = Michonne.MakeMichonnesKatana,
         ReplaceOnUse = HowToMakeMichonnesKatana,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
@@ -52,7 +52,7 @@ module Michonne {
         SwingTime = 3,
         TreeDamage = 1,
         TwoHandWeapon = TRUE,
-        Type = Weapon,
+        ItemType = base:weapon,
         WeaponLength = 0.4,
         WeaponSprite = Michonne.MichonnesKatana,
         Weight = 1.5,
@@ -65,7 +65,7 @@ module Michonne {
     {
         DisplayName               = Broken Michonne's Katana,
         DisplayCategory           = BrokenWeapon,
-        Type                      = Weapon,
+        ItemType                  = base:weapon,
         Weight                    = 1.5,
         Icon                      = Katana_Broken,
         AttachmentType            = Sword,
@@ -115,7 +115,7 @@ module Michonne {
     {
         DisplayName      = Michonne's Katana Blade Shard,
         DisplayCategory  = Material,
-        Type             = Normal,
+        ItemType         = base:normal,
         Weight           = 0.5,
         Icon             = Katana_Tip,
         Tags             = HasMetal;ShowCondition,
@@ -131,7 +131,7 @@ module Michonne {
     {
         DisplayName      = Michonne's Katana Handle,
         DisplayCategory  = Memento,
-        Type             = Normal,
+        ItemType         = base:normal,
         Weight           = 0.5,
         Icon             = Katana_Handle,
         Tags             = HasMetal,
@@ -143,7 +143,7 @@ module Michonne {
     {
         DisplayName         = Michonne's Katana Blade,
         DisplayCategory     = Material,
-        Type                = Normal,
+        ItemType            = base:normal,
         Weight              = 0.5,
         Icon                = KatanaBlade,
         Tags                = HasMetal,
@@ -156,7 +156,7 @@ module Michonne {
     {
         DisplayName         = Broken Michonne's Katana Blade,
         DisplayCategory     = Material,
-        Type                = Normal,
+        ItemType            = base:normal,
         Weight              = 0.5,
         Icon                = KatanaBlade_Broken,
         Tags                = HasMetal,
