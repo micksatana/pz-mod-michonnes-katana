@@ -18,7 +18,7 @@ module Michonne {
             item 4 [Base.WeldingRods],
             item 2 [Base.SmallSheetMetal],
             item 1 [Base.LeatherStrips;Base.LeatherStripsDirty],
-            item 1 [Base.Stake],
+            item 1 [Base.Handle],
         }
         
         outputs {
