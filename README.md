@@ -28,6 +28,7 @@ Michonne's Katana has the same spawning rate as normal Katana.
 - Find materials; 10 Metal Sheet, 2 Small Metal Sheet, 4 Welding Rods, 1 Leather Strip, 1 Stake (B41) or 1 Medium Handle (B42) and 1 Wood Glue
 - [B41] Right-click on any material and click Forge Katana
 - [B42] Open Crafting Menu, looks for Forge Katana
+- [B42.15] There is a new feature to allow the katana to be dismantled and assembled in order to fix its handle condition. So we need two steps to forge; first forge the blade, then assemble it using a handle and leather strips.
 
 ## Katana attachments
 

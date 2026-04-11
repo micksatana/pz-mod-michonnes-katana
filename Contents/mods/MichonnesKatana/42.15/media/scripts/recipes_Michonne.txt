@@ -12,17 +12,14 @@ module Michonne {
         inputs {
             item 1 tags[WeldingMask] mode:keep,
             item 1 tags[Sledgehammer] mode:keep,
-            item 1 tags[Glue],
             item 10 [Base.BlowTorch],
             item 10 [Base.SheetMetal],
             item 4 [Base.WeldingRods],
             item 2 [Base.SmallSheetMetal],
-            item 1 [Base.LeatherStrips;Base.LeatherStripsDirty],
-            item 1 [Base.Handle],
         }
         
         outputs {
-            item 1 Michonne.MichonnesKatana,
+            item 1 Michonne.MichonnesKatana_Blade,
         }
     }
 
@@ -33,10 +30,11 @@ module Michonne {
         timedAction = CraftWeapon2H,
         
         inputs {
-            item 1 tags[Hammer] mode:keep flags[MayDegradeLight],
+            item 1 tags[Pliers] mode:keep flags[Prop1;MayDegradeLight],
+            item 1 tags[Glue],
             item 1 [Base.Handle] flags[Prop2;InheritCondition],
             item 2 [Base.LeatherStrips;Base.LeatherStripsDirty],
-            item 1 [Michonne.MichonnesKatana_Blade] flags[InheritHeadCondition;InheritSharpness;IsHeadPart],
+            item 1 [Michonne.MichonnesKatana_Blade] flags[IsHeadPart;InheritCondition;InheritSharpness],
         }
 
         outputs {

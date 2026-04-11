@@ -24,7 +24,10 @@ module Michonne {
         BaseSpeed = 1,
         Categories = LongBlade,
         ConditionLowerChanceOneIn = 30,
-        ConditionMax = 100,
+        ConditionMax = 10,
+        HeadConditionLowerChanceMultiplier = 1.0,
+        HeadCondition = 50,
+        HeadConditionMax = 50,
         CritDmgMultiplier = 10,
         CriticalChance = 40,
         DamageCategory = Slash,
@@ -45,6 +48,7 @@ module Michonne {
         PushBackMod = 0.5,
         RunAnim = Run_Weapon2,
         SubCategory = Swinging,
+        Sharpness = 1,
         SwingAmountBeforeImpact = 0.02,
         SwingAnim = Bat,
         SwingTime = 3,
@@ -103,7 +107,7 @@ module Michonne {
         WeaponSprite              = Katana_Broken,
         OnBreak                   = OnBreak.MichonnesKatana_Broken,
         
-        Sharpness           = 1.0,
+        Sharpness           = 0.5,
         ResearchableRecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_SwordBlade,
     }
     
@@ -117,7 +121,7 @@ module Michonne {
         WorldStaticModel = Katana_Shard,
         ConditionMax     = 13,
         
-        Sharpness           = 1.0,
+        Sharpness           = 0.5,
         ResearchableRecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_SwordBlade,
     }
     
@@ -139,6 +143,9 @@ module Michonne {
         Tags                = base:hasmetal,
         StaticModel         = Katana_Blade,
         WorldStaticModel    = Katana_Blade,
+        ConditionMax        = 50,
+
+        Sharpness           = 1.0,
         ResearchableRecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_SwordBlade,
     }
     

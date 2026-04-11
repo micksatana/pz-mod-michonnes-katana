@@ -30,6 +30,7 @@ description=  [*] Find tools; Welder Mask, Propane Torch, and Sledgehammer
 description=  [*] Find materials; 10 Steel Sheet, 2 Small Steel Sheet, 4 Welding Rods, 1 Leather Strip, 1 Stake (B41) or 1 Medium Handle (B42), and 1 Wood Glue
 description=  [*] Right-click on any material and click Forge Katana. Or open Crafting Menu, looks for Forge Katana by recipe name
 description=  [*] Built-in Michonne's Katana Sheath
+description=  [*] In B42.15 and later, there is a new feature to allow the katana to be dismantled and assembled in order to fix its handle condition. So we need two steps to forge; first forge the blade, then assemble it using a handle and leather strips.
 description=[/list]
 description=
 description=[h2]Katana attachments[/h2]
