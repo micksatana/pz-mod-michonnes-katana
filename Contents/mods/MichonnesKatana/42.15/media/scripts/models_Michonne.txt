@@ -1,0 +1,34 @@
+module Michonne {
+    model MichonnesKatana {
+        mesh = weapons/2handed/Katana,
+        texture = weapons/2handed/MichonnesKatana,
+    }
+    model MichonnesKatana_Sheathed {
+        mesh = weapons/2handed/Katana,
+        texture = weapons/2handed/MichonnesKatana_Sheathed,
+    }
+    model MichonnesKatana_Broken {
+        mesh = weapons/1handed/Katana_Broken,
+        texture = weapons/2handed/MichonnesKatana,
+    }
+    model MichonnesKatana_Shard {
+        mesh = WorldItems/Katana_BrokenShard_Ground,
+        texture = weapons/2handed/MichonnesKatana,
+        scale = 0.4,
+    }
+    model MichonnesKatana_Handle {
+        mesh = WorldItems/Katana_Handle,
+        texture = weapons/2handed/MichonnesKatana,
+        scale = 0.125,
+    }
+    model MichonnesKatana_Blade {
+        mesh = WorldItems/Katana_Blade_NoTang,
+        texture = weapons/2handed/MichonnesKatana,
+        scale = 0.125,
+    }
+    model MichonnesKatana_Blade_Broken {
+        mesh = WorldItems/Katana_Blade_Broken_NoTang,
+        texture = weapons/2handed/MichonnesKatana,
+        scale = 0.125,
+    }
+}

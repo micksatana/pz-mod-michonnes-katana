@@ -25,6 +25,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "pzSyntaxExtension.searchDirectories": [
-    "~/project-zomboid-app/Contents/Java/media/scripts"
+    "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/scripts"
+  ],
+  "json.schemaDownload.trustedDomains": {
+    "https://raw.githubusercontent.com/SirDoggyJvla/pz-translation-data": true
+  },
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "**/media/lua/shared/Translate/*/Moveables.json"
+      ],
+      "url": "https://raw.githubusercontent.com/SirDoggyJvla/pz-translation-data/refs/heads/main/PZ_Translation_Schemas/Moveables.schema.json",
+      "name": "PZ Moveables translation schema"
+    }
   ]
 }

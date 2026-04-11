@@ -1,0 +1,64 @@
+module Michonne {
+    
+    craftRecipe MakeMichonnesKatana {
+        tags = AnySurfaceCraft;CanBeDoneFromFloor,
+        timedAction = Welding,
+        SkillRequired = MetalWelding:6,
+        AutoLearnAny: MetalWelding:6,
+        category = Weaponry,
+        time = 360,
+        xpAward = MetalWelding:25,
+        
+        inputs {
+            item 1 tags[WeldingMask] mode:keep,
+            item 1 tags[Sledgehammer] mode:keep,
+            item 1 tags[Glue],
+            item 10 [Base.BlowTorch],
+            item 10 [Base.SheetMetal],
+            item 4 [Base.WeldingRods],
+            item 2 [Base.SmallSheetMetal],
+            item 1 [Base.LeatherStrips;Base.LeatherStripsDirty],
+            item 1 [Base.Handle],
+        }
+        
+        outputs {
+            item 1 Michonne.MichonnesKatana,
+        }
+    }
+
+    craftRecipe AssembleMichonnesKatana {
+        time = 120,
+        tags = AnySurfaceCraft,
+        category = Assembly,
+        timedAction = CraftWeapon2H,
+        
+        inputs {
+            item 1 tags[Hammer] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Handle] flags[Prop2;InheritCondition],
+            item 2 [Base.LeatherStrips;Base.LeatherStripsDirty],
+            item 1 [Michonne.MichonnesKatana_Blade] flags[InheritHeadCondition;InheritSharpness;IsHeadPart],
+        }
+
+        outputs {
+            item 1 Michonne.MichonnesKatana,
+        }
+    }
+
+    craftRecipe DismantleMichonnesKatana {
+        time = 120,
+        tags = AnySurfaceCraft,
+        category = Assembly,
+        timedAction = CraftWeapon2H,
+        
+        inputs {
+            item 1 tags[Hammer] mode:keep flags[Prop1],
+            item 1 [Michonne.MichonnesKatana] flags[InheritHeadCondition;InheritSharpness;Prop2;AllowDestroyedItem],
+        }
+
+        outputs {
+            item 1 Michonne.MichonnesKatana_Blade,
+            item 1 Base.Handle,
+            item 2 Base.LeatherStripsDirty,
+        }
+    }
+}
